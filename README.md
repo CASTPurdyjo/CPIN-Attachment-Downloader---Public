@@ -10,6 +10,10 @@ You can find the latest version of the downloader here! (Will be inserting a lin
 
 ## Roadmap
 
+[For a direct link to see what is being worked on currently, click HERE](https://github.com/CASTPurdyjo/CAST-Attachment-Downloader---Public/projects/1)
+
+[For progress on current milestones, click HERE](https://github.com/CASTPurdyjo/CAST-Attachment-Downloader---Public/milestones)
+
 There are a number of things that need to be developed and improved upon from the previous experiment.
 They will be subdivided into the following categories:
 
