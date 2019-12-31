@@ -24,22 +24,22 @@ They will be subdivided into the following categories:
 
 ### Back End - 
 
-- Google Analytics API
-    - Implement the same functionality that exists in the current version (*though cleaned up*) so that I can track usage and build a case for this to be implemented into CPIN
-- Bitbucket Issues API Integration - 75%
-    - For automatic issue creation
-    - This is so if the program crashes or runs into an issue I can have the program automatically add an issue to the project so that I know about it immediately and can get the details on what occurred
-- Concurrent Case Downloading
-    - It sure would be nice to throw a bunch of case #s into this and it just automatically do them all (*even potentially at the same time!*)
+- ~~Google Analytics API~~
+    - ~~Implement the same functionality that exists in the current version (*though cleaned up*) so that I can track usage and build a case for this to be implemented into CPIN~~
+- ~~(Github) Issues API Integration - 75%~~
+    - ~~For automatic issue creation~~
+    - ~~This is so if the program crashes or runs into an issue I can have the program automatically add an issue to the project so that I know about it immediately and can get the details on what occurred~~
+- ~~Concurrent Case Downloading~~
+    - ~~It sure would be nice to throw a bunch of case #s into this and it just automatically do them all (*even potentially at the same time!*)~~
 - ~~Program Log - 100%~~
     - ~~Have a detailed output of what the program did at every step so if any issues pop up we can reference the log to see what happened~~
-- Automatic Updating
-    - This way everyone can update when ready and I don't need to chase after people anymore!
+- ~~Automatic Updating~~
+    - ~~This way everyone can update when ready and I don't need to chase after people anymore!~~
 
 ### Front End
 
 - Develop an interface that supports multiple items in CPIN that can hold attachments (*participant, case, provider*) without feeling clunky
-- Add tool bar items that can bring up this wiki, check for updates, see logs, and report bugs from inside the program
+- ~~Add tool bar items that can bring up this wiki, check for updates, see logs, and report bugs from inside the program~~
 - Include more appropriate icons and feedback to notify a user of any issues or the current status of the program
 
 ### User Functionality
@@ -50,53 +50,51 @@ They will be subdivided into the following categories:
     - Protection Worker Access
         - Person Record
         - Provider Record
-        - Historical Case Record
-        - Screening Case
-        - Investigation Case
-        - Ongoing Case
-        - Child In Care Case
-        - Adoption Case
-        - Kinship Service Case
-        - Voluntary Youth Service Agreement Case
-        - Continued Care & Support for Youth Case
-        - Renewed Youth Supports Case
-        - Other Child Welfare Case
+        - ~~Historical Case Record~~
+        - ~~Screening Case~~
+        - ~~Investigation Case~~
+        - ~~Ongoing Case~~
+        - ~~Child In Care Case~~
+        - ~~Adoption Case~~
+        - ~~Kinship Service Case~~
+        - ~~Voluntary Youth Service Agreement Case~~
+        - ~~Continued Care & Support for Youth Case~~
+        - ~~Renewed Youth Supports Case~~
+        - ~~Other Child Welfare Case~~
     - Supervisor Access
         - Person Record
         - Provider Record
-        - Historical Case Record
-        - Screening Case
-        - Investigation Case
-        - Ongoing Case
-        - Child In Care Case
-        - Adoption Case
-        - Kinship Service Case
-        - Voluntary Youth Service Agreement Case
-        - Continued Care & Support for Youth Case
-        - Renewed Youth Supports Case
-        - Other Child Welfare Case
+        - ~~Historical Case Record~~
+        - ~~Screening Case~~
+        - ~~Investigation Case~~
+        - ~~Ongoing Case~~
+        - ~~Child In Care Case~~
+        - ~~Adoption Case~~
+        - ~~Kinship Service Case~~
+        - ~~Voluntary Youth Service Agreement Case~~
+        - ~~Continued Care & Support for Youth Case~~
+        - ~~Renewed Youth Supports Case~~
+        - ~~Other Child Welfare Case~~
     - Local Administrator Access
         - Person Record
         - Provider Record
-        - Historical Case Record
-        - Screening Case
-        - Investigation Case
-        - Ongoing Case
-        - Child In Care Case
-        - Adoption Case
-        - Kinship Service Case
-        - Voluntary Youth Service Agreement Case
-        - Continued Care & Support for Youth Case
-        - Renewed Youth Supports Case
-        - Other Child Welfare Case
+        - ~~Historical Case Record~~
+        - ~~Screening Case~~
+        - ~~Investigation Case~~
+        - ~~Ongoing Case~~
+        - ~~Child In Care Case~~
+        - ~~Adoption Case~~
+        - ~~Kinship Service Case~~
+        - ~~Voluntary Youth Service Agreement Case~~
+        - ~~Continued Care & Support for Youth Case~~
+        - ~~Renewed Youth Supports Case~~
+        - ~~Other Child Welfare Case~~
 
 ### Lessons Learned
      
 - Handle situation where there are no items to combine into a pdf. Apparently the program just crashes!
-- Install the program in program files/where user wants
-    - Used a simple tool called "ClickOnce" which forces users to install the program into their own profile
-- Prompt for password on every use
-    - While I'm sure people enjoyed the simple run and go, for security reasons this really should be something that you input every time
+- ~~Prompt for password on every use~~
+    - ~~While I'm sure people enjoyed the simple run and go, for security reasons this really should be something that you input every time~~
 - Exclude attachments from other agencies
     - Not sure if this is actually possible but I want to check that out
 - Exclude any attachments that have been marked privileged 
